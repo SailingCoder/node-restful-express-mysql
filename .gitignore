@@ -1,0 +1,17 @@
+.bowerrc
+.DS_Store
+.editorconfig
+node_modules
+npm-debug.log
+.idea
+.vscode
+.project
+log.md
+/*/coverage
+jsconfig.json
+dist
+yarn.lock
+lbConf
+configs/config.service.json
+test.js
+SC.js

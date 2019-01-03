@@ -1,0 +1,21 @@
+{
+    "extends": [
+        "../../lbConf/templates/eslint.config.js"
+    ],
+    "globals": {
+        "kendo": true,
+        "browser": true
+    },
+    "rules": {
+        "prettier/prettier": ["error", {
+            "singleQuote": true,
+            "tabWidth": 4,
+            "printWidth": 120
+        }]
+    },
+    "env": {
+        "jasmine": true,
+        "jquery": true,
+        "browser": true
+    }
+}

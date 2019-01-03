@@ -1,0 +1,41 @@
+{
+  "name": "svcCrm",
+  "version": "0.0.0",
+  "description": "user service manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "DaGua",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.4.2",
+    "bluebird": "^3.4.3",
+    "debug": "~2.2.0",
+    "express": "^4.15.3",
+    "hiredis": "^0.5.0",
+    "ioredis": "^2.3.0",
+    "knex": "^0.11.10",
+    "lodash": "^4.15.0",
+    "moment": "^2.14.1",
+    "mysql": "^2.11.1",
+    "request": "^2.79.0",
+    "swagger-express-mw": "^0.1.0",
+    "swagger-parser": "^3.4.1",
+    "swagger-client": "^3.0.13",
+    "js-yaml": "^3.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-jasmine": "^1.8.1",
+    "eslint-plugin-prettier": "^2.1.2",
+    "jasmine": "^2.4.1",
+    "jasmine-promises": "^0.4.1",
+    "jasmine-spec-reporter": "^2.7.0",
+    "prettier": "^1.5.2"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  }
+}
